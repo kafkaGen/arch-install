@@ -1,0 +1,137 @@
+# cfdisk /dev/...
+# mkfs.fat -F32 /dev/...
+# mkfs.ext4 /dev/...
+# mount /dev/... /mnt
+# mkdir /mnt/boot & mkdir /mnt/boot/efi
+# mount /dev/... /mnt/boot/efi
+# pacstrap /mnt base linux linux-firmware
+# genfstab -U /mnt >> /mnt/etc/fstab
+# arch-chroot /mnt
+# pacman -S git && mkdir Downloads && cd Downloads && git clone https://github.com/NemaOchka/instruct
+timedatectl set-ntp true
+ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
+hwclock --systohc
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && cd ~/Downloads
+yay -Syu
+yay -S  alsa-firmware alsa-utils alsa-plugins pulseaudio-alsa pulseaudio pavucontrol base-devel xorg-server xorg-xinit xorg-xrandr zsh htop playerctl cmake mesa xf86-video-intel sudo grub efibootmgr dosfstools os-prober mtools networkmanager
+
+yay -S nvidia nvidia-utils nvidia-settings optimus-manager optimus-manager-qt bbswitch acpi
+
+yay -S nvim firefox telegram-desktop evince alacritty feh picom neofetch nomacs gedit rofi lxappearance pcmanfm bleachbit copyq flameshot pavucontrol-qt zoom betterlockscreen redshiftgui qtile qtile-extras xkb-switch
+
+
+# yay -S gimp camera obs-studio texlive-most texmaker onlyoffice-bin pycharm ttf-times-new-roman brightnessctl xorg-xbacklight timeshift filelight discord vlc gparted sddm xorg zip unzip ttf-ms-fonts ttf-google-sans nerd-fonts-ubuntu-mono noto-fonts-emoji mesa-utils mesa-demos
+# nitrogen dunst dufw reflector
+
+cp instruct/locale.gen /etc/locale.gen
+locale-gen
+cp instruct/hostname /etc/hostname
+cp instruct/hosts /etc/hosts
+passwd
+useradd -m archer
+passwd archer
+usermod -aG wheel,audio,video archer
+cp instruct/sudoers /etc/sudoers
+#uncomment DISABLE os-preber in etc/default/grub
+cp instruct/grub /etc/default/grub 
+grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
+grub-mkconfig -o /boot/grub/grub.cfg
+systemctl enable NetworkManager
+exit
+umount -l /dev/...
+reboot
+
+sudo nmcli device wifi connect internet1 password 12345678
+chsh -s /bin/zsh
+echo export LANG=en_US.UTF-8 >> ~/.zshrc
+
+sudo systemctl enable optimus-manager
+#sudo systemctl enable acpid.service 
+
+#sudo nvidia-xconfig
+
+
+
+xdg-mime query default inode/directory
+cp instruct/.xinitrc ~/.xinitrc
+cp instruct/10-keyboard.conf /etc/X11/xorg.conf.d/10-keyboard.conf
+cp instruct/30-touchpad.conf /etc/X11/xorg.conf.d/30-touchpad.conf
+cp instruct/.zshrc ~/.zshrc
+cp instruct/.zlogin ~/.zlogin
+cp instruct/htoprc ~/.config/htop/
+cp instruct/alacritty.yml ~/.config/alacritty/alacritty.yml
+cp instruct/picom.conf ~/.config/picom/picom.conf
+cp instruct/copyq.conf ~/.config/copyq/config.conf
+cp instruct/flameshot.ini ~/.config/flameshot/flameshot.ini
+
+sudo systemctl enable fstrim.timer
+
+
+
+
+
+
+
+distro - arch
+Window Manager - awesome
+shell - zsh
+terminal - allacritty
+theme - find some cool stuf on unixporn
+
+------------------------------------------------------------
+laptop stuff
+lightdm or sddm or maybe noone
+mirrors - https://www.youtube.com/watch?v=ou369IE7fw8&list=PL-odKaUzOz3IrwoAtsBsMKB86JkPjPvJ_&index=3
+sudo systemd-analyze critical-chain - optimaze boot
+timeshift configuration
+faster vim scrolling
+
+flameshot fix or find analog
+
+alacritty feh picom rofi pcmnanfm betterlockscreen redshiftgui gpicview(nomacs) neofetch evince xbacklihgt
+
+configurait WM + (make difficult shortcut for poweroff/ reboot/ logout= betterlockscreen - l)
+notofication (system, volume, screenbrightness)
+bluetuz
+nvim/emacs config
+
+make noice of funs less louder
+
+
+-- System
+sudo systemctl disable NetworkManager-wait-online.service
+sudo gufw - enable firewall
+
+
+-- Customization
+git clone https://github.com/vinceliuice/grub2-themes && cd grub* && sudo ./install.sh -b -t vimix - grub theme
+sudo systemctl enable betterlockscreen@$USER - enable betterlockscreen to appear on suspend/sleep
+zsh - to configure zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"k
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+nvim ~/.zshrc - change to ZSH_THEME="powerlevel10k/powerlevel10k"
+https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh - setup auto suggest
+https://www.youtube.com/watch?v=CPTWbWXcVp8 - setup syntax hightlighting
+/usr/share/themes - download to this dir gtk theme and enable it with lxappearance
+/usr/share/icons - download to this dir icons theme and enable it with lxappearance
+yay -S vimix-cursors - enable it with lxappearance
+nvim .config/alacritty/alacritty.yml - font font smaller, add opacity, no border
+
+
+
+-- Laptop
+sudo pacman -S nvidia optimus-manager optimus-manager-qt bbswitch - nvidia driver for dual
+sudo systemctl enable optimus-manager
+sudo pacman -S acpi tlp auto-cpufreq powertop
+sudo systemctl enable/start tlp/auto-cpufreq
+sudo tlp start
+
+
+-- Python
+yay -S miniconda3
+conda install numpy pandas env matplotlib jupyter notebook dbus-next
+
+pip install numpy pandas sklearn scipy env matplotlib jupyter jupyterlab notebook
+
+-- Dual with Windows
+disable fastboot on Windows

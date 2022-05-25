@@ -1,0 +1,10 @@
+window:
+  padding:
+    x: 4
+    y: 4
+  decorations: none
+  opacity: 0.65
+  #gtk_theme_variant: None
+
+font:
+  size: 9.0
