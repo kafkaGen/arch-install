@@ -32,9 +32,3 @@ sudo gufw - enable firewall
 yay -S miniconda3
 conda install numpy pandas env matplotlib jupyter notebook dbus-next
 pip install numpy pandas sklearn scipy env matplotlib jupyter jupyterlab notebook
-
-
--- Dual with Windows
-disable fastboot on Windows
-run as super user in cmd:
-reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
