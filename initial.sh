@@ -3,11 +3,11 @@ timedatectl set-ntp true
 ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
 hwclock --systohc
 # hwclock --hctosys
-pacman -S base-devel neovim sudo grub efibootmgr dosfstools os-prober networkmanager
-cp Downloads/instruct/locale.gen /etc/locale.gen
+pacman -S --noconfirm base-devel neovim sudo grub efibootmgr dosfstools os-prober networkmanager
+cp Downloads/arch-install/locale.gen /etc/locale.gen
 locale-gen
-cp Downloads/instruct/hostname /etc/hostname
-cp Downloads/instruct/hosts /etc/hosts
+cp Downloads/arch-install/hostname /etc/hostname
+cp Downloads/arch-install/hosts /etc/hosts
 echo "Enter root password twice"
 passwd
 useradd -m archer
@@ -16,7 +16,7 @@ passwd archer
 usermod -aG wheel,audio,video archer
 echo "Uncomment wheel group"
 EDITOR=nvim visudo
-cp Downloads/instruct/grub /etc/default/grub 
+cp Downloads/arch-install/grub /etc/default/grub 
 grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
 grub-mkconfig -o /boot/grub/grub.cfg
 systemctl enable NetworkManager
