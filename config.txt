@@ -1,0 +1,40 @@
+distro - arch
+Window Manager - qtile
+shell - zsh
+terminal - allacritty theme - find some cool stuf on unixporn
+
+------------------------------------------------------------
+lightdm? in case it can be fast
+emacs
+maybe new alacritty theme (config)
+telegram MediaView
+betterlockscreen on sleep
+qtile KeyboardLayout
+optimus-manager switching and work without DM
+icons in dunst
+maye rofi wifi/blutuez/power menu
+firefox cursore
+qt theme Colloid aurorae theme
+xset
+vifm or ranger check
+
+
+qutebrowser
+zsh slow
+
+-- System
+sudo systemd-analyze critical-chain - optimaze boot
+sudo systemctl disable NetworkManager-wait-online.service
+sudo gufw - enable firewall
+
+
+-- Python
+yay -S miniconda3
+conda install numpy pandas env matplotlib jupyter notebook dbus-next
+pip install numpy pandas sklearn scipy env matplotlib jupyter jupyterlab notebook
+
+
+-- Dual with Windows
+disable fastboot on Windows
+run as super user in cmd:
+reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f

@@ -1,0 +1,79 @@
+[global]
+    monitor = 0
+    follow = mouse
+    width = 350
+    offset = 20x50
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 400
+    indicate_hidden = yes
+	transparency = 0
+    shrink = no
+    separator_height = 2
+    padding = 8
+    horizontal_padding = 8
+    text_icon_padding = 0
+    frame_width = 2
+    frame_color = "#e1acff"
+    separator_color = frame
+    sort = yes
+    idle_threshold = 120
+    font = Source Code Pro
+    line_height = 0
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 60
+    word_wrap = yes
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+    icon_position = left
+    min_icon_size = 0
+    max_icon_size = 32
+    icon_path = /home/archer/.local/myicons
+    sticky_history = yes
+    history_length = 20
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    ignore_dbusclose = false
+    force_xwayland = false
+    force_xinerama = false
+    mouse_left_click = do_action, close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+[experimental]
+    per_monitor_dpi = false
+
+[urgency_low]
+    background = "#282a36"
+    foreground = "#6272a4"
+    timeout = 10
+
+[urgency_normal]
+    background = "#282a36"
+    foreground = "#bd93f9"
+    timeout = 10
+    new_icon = /home/archer/.local/myicons/normal.png
+
+[urgency_critical]
+    background = "#282a36"
+    foreground = "#f8f8f2"
+    frame_color = "#ff5555"
+    timeout = 0
+    new_icon = /home/archer/.local/myicons/critical.svg
+
+[changevolume]
+	appname = changevolume
+	history_ignore = yes
+
+[changebrightness]
+	appname = changebrightness
+	history_ignore = yes

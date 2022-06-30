@@ -1,0 +1,877 @@
+ls .config/zsh
+ls .config/zsh
+nvim .histfile 
+source .zshrc
+cd .config/zsh
+ls -al
+nvim history
+nvim history
+nvim .histfile
+nvim .config/zsh/history
+asdfadasdffasdsf
+run-help aasdfasdf
+run-help asdffasd
+run-help asdffasd
+asdffasdjjafa
+asdfasdf
+ls -al
+lsal
+rm .zcompdump
+lsal
+rm .bash_history .histfile
+lsal
+asdfafs
+lsal
+systemctl status betterlockscreen@$USER
+yain -S zsh-vi-mode
+yain zsh-vi-mode
+sfa
+lsal
+cd Downloads/instruct
+lsal
+lsall
+yain zsh-syntax-highlighting
+whereis zsh-syntax-highlighting
+yain spaceship-prompt
+v .config/zsh.pre/.zshrc
+v Downloads/instruct/post.txt
+lsal
+cd Downloads/instruct
+lsal
+whereis spaceship
+whereis spaceship-prompt
+cd /usr/share/zsh
+lsal
+cd plugins
+lsal
+cd
+cd /usr/lib/spaceship-prompt
+lsal
+lsa
+lsal
+safdasdf
+v Downloads/instruct/post.txt
+v .config/zsh/.zshrc
+v .zshenv
+cd .config/zsh
+lsal
+pwd
+v .zshrc
+pwd
+lsal
+cd
+lsal
+v Downloads/instruct/config.txt
+lsal
+reboot
+starx
+startx
+reboot
+setxkbmap -v
+setxkbmap -h
+setxkbmap --help
+setxkbmap 
+sudo pacman -Qs setxkbmap
+v .config/qtile/config.py
+ xprop WM_CLASS
+ xprop WM_CLASS
+ xprop WM_CLASS
+v .config/qtile/config.py
+net
+net
+htop
+net
+htop
+v Downloads/instruct/po
+v Downloads/instruct/post.txt
+mkdir .config/git
+mv .gitconfig .config/git/config
+cp -r .config/git Downloads/instruct
+cd .pki
+lsal
+cd nssdb
+lsal
+cd
+lsal
+git help config
+cd Downloads/instruct
+git add -A
+git status
+git commit
+git commit -m 'message'
+v /etc/X11/xinit/xinitrc
+cp Downloads/instruct/zsh/.zlogin .config/zsh/
+sudo rm -r .config/zsh.pre
+echo #XINITRC
+echo $XINITRC
+echo $XINITRC
+echo $SHELL
+xinit -h
+man xinit
+cd .config/X11
+ls
+cd
+cp .xinitrc .config/X11
+cd .config/X11
+lsal
+ls
+lsal
+mv .xinitrc xinitrc
+ls
+v xinitrc
+echo huilo >> .config/zsh/.zshrc
+v .config/zsh/.zshrc
+v Downloads/instruct/post.txt
+lsal
+cd .cache
+lsal
+cd betterlockscreen
+lsal
+cd current
+lsal
+feh wall_dim.png
+cd
+lsal
+lsal
+v .histfile
+v .histfile
+rm .histfile
+lsal
+v Downloads/instruct/con
+v Downloads/instruct/config.txt
+v /etc/security/pam_env.conf
+v /etc/security/pam_env.conf
+sudo v /etc/security/pam_env.conf
+cd
+v .xinitrc
+rm .xinitrc
+startx
+startx
+mv .config/X11/xinitrc ~/.xinitrc
+sudo v /etc/security/pam_env.conf
+reboot
+ xprop WM_CLASS
+v .config/qtile/config.py
+pcmanfm -v
+sudo pacman -Qs pcmafm
+sudo pacman -Qs pcmanfm
+lsal
+ls .config
+rm -r .config/X11
+ls .config
+lsal
+cd Downloads/instruct
+lsal
+v Downloads/instruct/post.txt
+v Downloads/instruct/post.txt
+cat /usr/share/applications/mimeinfo.cache
+cat /usr/share/applications/mimeinfo.cache | grep 'pcmanfm\
+'
+cat /usr/share/applications/mimeinfo.cache | grep 'pcmanfm'
+xdg-mime query default pcmanfm.desktop
+xdg-mime query default inode/directory pcmanfm.desktop
+xdg-mime query default inode/directory
+gio mime inode/directory
+w
+w
+w
+w
+w
+htop
+yaupd && exit
+yaupd
+net
+v .config/zsh/.zshrc
+yay -Qe | wc -l
+yay -Q | wc -l
+yaorhp
+yay -Q | wc -l
+yay -Qe | wc -l
+yaorhp
+yaupd
+yay -Qdt
+yay -Rs $(yay -Qqtd)
+v .config/zsh/.zshrc
+sudo cp /etc/pacman.conf Downloads/instruct/
+df -h
+df -h
+yay -Sc
+df -h
+yay -Q reflector
+sudo pacman -Qs reflector
+v .config/zsh/.zshrc
+yaupd
+yaorhp
+yay -Rs $(yay -Qqtd)
+yay -Qqtd
+pacman -Qqtd
+pacman -Qqt
+pacman -Qtd
+yaupd
+inxi
+yar material-cursors-git
+v Downloads/instruct/config.txt
+v .config/mimeapps.list
+v .config/mimeapps.list
+v Downloads/instruct/post.txt
+sudo v /etc/pacman.d/mirrorlist
+yaupd
+yay -S obs
+yay -S obs-studio
+inxi
+sudo v /etc/pacman.conf
+v .local/share/qtile
+v .local/share/qtile/qtile.log
+v .config/qtile/config.py
+reboot
+qtile -v
+v .local/share/qtile/qtile.log
+v .local/share/qtile/qtile.log
+gedit .local/share/qtile/qtile.log
+v .config/qtile/config.py
+yain ranger
+ranger
+v .local/share/nvim/swap/%home%archer%Downloads%instruct%post.txt.swp
+v Downloads/instruct/post.txt
+v Downloads/instruct/post.txt
+v .config/nvim/init.vim
+yain vifm
+vifm
+v Downloads/instruct/config.txt
+yar bash
+v
+reboot
+reboot
+htop
+pkill picom
+v /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
+sudo tlp-stat -b
+v Downloads/instruct/config.txt
+v /etc/tlp.conf
+cd /proc/
+lsal
+cd
+lscpu -p
+lscpu 
+v /etc/tlp.conf
+htop
+htop
+sudo cat /proc/cpuinfo
+watch -n.1 "grep \"^[c]pu MHz\" /proc/cpuinfo"
+watch -n1 "grep \"^[c]pu MHz\" /proc/cpuinfo"
+sudo tlp-stat -p
+htop
+sudo powertop
+watch -n1 "grep \"^[c]pu MHz\" /proc/cpuinfo"
+pip isntall pandas
+pip install pandas
+python
+man bbswitch
+bbswitch --help
+v /usr/bin/prime-offload
+if [[ -f /usr/bin/prime-offload ]]
+v file.sh
+sh file.sh
+sh file.sh
+v file.sh
+sh file.sh
+sh file.sh
+v file.sh
+rm file.sh
+lsal
+v Downloads/instruct/co
+v Downloads/instruct/config.txt
+optimus-manager --switch hybrid
+v .xinitrc
+reboot
+optimus-manager --switch hybrid
+optimus-manager --switch discrete
+reboot
+glxheads
+optimus-manager --switch 
+optimus-manager --status
+v .xinitrc
+reboot
+v .xinitrc
+v /usr/share/lightdm-webkit/themes/aqua/index.theme
+yain lightdm
+git clone https://github.com/paysonwallach/aqua-lightdm-webkit-theme /usr/share/lightdm-webkit/themes/aqua
+sudo git clone https://github.com/paysonwallach/aqua-lightdm-webkit-theme /usr/share/lightdm-webkit/themes/aqua
+v /etc/lightdm/lightdm.conf.d
+v /etc/lightdm/lightdm.conf
+sudo v /etc/lightdm/lightdm.conf
+yain lightdm-webkit2-greeter
+v Downloads/instruct/post.txt
+reboot
+v Downloads/instruct/.xinitrc
+optimus-manager --status
+v .xinitrc
+v .xinitrc
+sudo systemctl enable lightdm.service
+lightdm --test-mode --debug
+cd /usr/share/backgrounds
+lsal
+pcmanfm
+v /etc/lightdm/lightdm-webkit2-greeter.conf
+reboot
+v /etc/libaudit.conf
+v /etc/lightdm/lightdm.conf
+sudo v /etc/lightdm/lightdm.conf
+yain lightdm-gtk-greeter
+startx
+v /etc/lightdm/lightdm-gtk-greeter.conf
+sudo v /etc/lightdm/lightdm-gtk-greeter.conf
+v Downloads/instruct/post.txt
+sudo chmod ugo+rx ~/Pictures/WallPapers/0025.jpg
+v /var/log/lightdm
+cd /var/log/lightdm
+lsal
+sudo lsal
+v x-0.log
+sudo v x-0.log
+sudo v lightdm.log
+sudo v seat0-greeter.log
+yain lightdm-gtk-greeter-settings
+lightdm-gtk-greeter-setiings
+lightdm-gtk-greeter-settings
+sudo lightdm-gtk-greeter-settings
+sudo systemctl disable lightdm.service
+yar lightdm-gtk-greeter-settings lightdm-gtk-greeter lightdm-webkit2-greeter lightdm
+sudo systemctl enable sddm.service
+yain sddm
+yain sddm-kcm
+yaupd
+yain sddm-kcm
+sddm-kcm
+yar sddm-kcm
+cd /usr/share/sddm/themes
+lsal
+cd ma
+cd maya
+lsal
+v /etc/sddm.conf.d/20-optimus-manager.conf 
+cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf.d/
+sudo cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf.d/
+v /etc/sddm.conf.d/default.conf
+sudo v /etc/sddm.conf.d/default.conf
+optimus-manager --status
+optimus-manager
+v /var/log/optimus-manager/switch/switch-20220621T214828.log
+reboot
+prime-offload
+v /usr/lib/python3.10/site-packages/optimus_manager/sessions.py
+sudo v /usr/lib/python3.10/site-packages/optimus_manager/sessions.py
+optimus-manager --switch nvidia
+v /etc/optimus-manager/optimus-manager.conf
+optimus-manager
+qtile-cmd -o cmd -f shutdown
+qtile -h
+qtile cmd-obj -o cmd
+qtile cmd-obj -o cmd -f status
+sudo rmmod pcspkr
+optimus-manager --switch nvidia
+glxheads
+optimus-manager --switch nvidia
+v Downloads/instruct/post.txt
+optimus-manager --status
+yain optimus-manager-git
+reboot
+sudo optimus-manager
+sudo systemctl disable sddm.service
+reboot
+optimus-manager
+yar optimus-manager-git
+yar optimus-manager-qt
+yar optimus-manager-qt
+yar optimus-manager-git
+v .xinitrc
+reboot
+yain optimus-manager optimus-manager-qt
+optimus-manager-qt
+systemctl status optimus-manager.service
+v .config/qtile/autostart.sh
+glxheads
+v /etc/optimus-manager/optimus-manager.conf
+v /etc/optimus-manager/optimus-manager.conf
+optimus-manager-qt
+sudo optimus-manager-qt
+v /etc/optimus-manager/optimus-manager.conf
+sudo v /etc/optimus-manager/optimus-manager.conf
+v Downloads/instruct/optimus-manager.conf
+v Downloads/instruct/post.txt
+v .xinitrc
+cp -r .config/alacritty Downloads/instruct
+cp -r .config/copyq Downloads/instruct
+cp -r .config/dunst Downloads/instruct
+cp -r .config/flameshot Downloads/instruct
+cp -r .local/myicons Downloads/instruct
+cp -r .config/picom Downloads/instruct
+cp -r .config/qtile Downloads/instruct
+cp -r .config/rofi Downloads/instruct
+cp -r .config/zsh Downloads/instruct
+cp -r ~/WallPapeps Downloads/instruct
+cp -r ~/Pictures/WallPapers Downloads/instruct
+cp  .xinitrc Downloads/instruct
+cp  .zshenv Downloads/instruct
+cp  .config/betterlockscreenrc Downloads/instruct
+cp  .config/mimeapps.list Downloads/instruct
+cp  .config/redshift.conf Downloads/instruct
+cp  /etc/tlp.conf Downloads/instruct
+git add -A
+cd Downloads/instruct
+lsal
+lsal
+git add -A
+git status
+git commit -m 'file update'
+git push
+optimus-manager
+optimus-manager --switch integrated
+prime-offload
+optimus-manager --switch integrated
+v .xinitrc
+optimus-manager --status
+prime-offload
+optimus-manager --status
+optimus-manager-qt
+prime-offload
+optimus-manager-qt
+optimus-manager-qt &
+v .xinitrc
+optimus-manager --switch
+optimus-manager --switch auto
+optimus-manager --switch hybrid
+yain acpid
+sudo systemctl enable acpid.service
+sudo systemctl start acpid.service
+sudo v /etc/optimus-manager/optimus-manager.conf
+sudo v /usr/lib/python3.10/site-packages/optimus_manager/sessions.py
+optimus-manager --status
+optimus-manager --switch hybrid
+prime-switch
+prime-switch
+sudo prime-switch
+optimus-manager --status
+neofetch
+neofetch
+optimus-manager -v
+v /etc/optimus-manager/optimus-manager.conf
+gedit /etc/optimus-manager/optimus-manager.conf
+optimus-manager --status
+v /var/log/optimus-manager/switch/switch-20220526T194523.log
+gedit /var/log/optimus-manager/switch/switch-20220526T194523.log
+v /var/log/optimus-manager/daemon/daemon-20220526T194522.log
+gedit /var/log/optimus-manager/daemon/daemon-20220526T194522.log
+v /var/log/optimus-manager/daemon/daemon-20220526T194522.log
+v .xinit
+v .xinitrc
+edit .xinitrc
+gedit .xinitrc
+v .xinitrc
+v Downloads/instruct/config.txt
+optimus-manager --switch hybrid
+sudo watch -n 1  cat /sys/devices/system/cpu/cpu*/cpufreq/cpuinfo_cur_freq
+cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq \
+
+watch "grep 'cpu MHz' /proc/cpuinfo"
+watch "grep 'cpu MHz' /proc/cpuinfo" 
+sudo v /etc/tlp.conf
+yain stress
+htoop
+htop
+yain cpupower
+cpupower
+cpupower -h
+cpupower info
+sudo cpupower info
+sudo cpupower frequency-info
+cat /proc/cpuinfo| grep MHz
+sudo dmidecode | grep MHz
+cat /sys/devices/system/cpu/intel_pstate/no_turbo
+watch -n1 "grep \"^[c]pu MHz\" /proc/cpuinfo"
+sudo tlp-stat -[
+sudo tlp-stat -p
+sudo tlp-stat -p
+sudo pip install s-tui
+s-tui
+s-tui
+optimus-manager --status
+optimus-manager --switch hybrid
+sudo tlp-stat -p
+sudo tlp-stat -b
+sudo tlp-stat -p
+watch -n1 "grep \"^[c]pu MHz\" /proc/cpuinfo"
+s-tui
+htop
+sudo tlp-stat -p
+Ñƒ¦
+w
+w
+w
+w
+net
+htop
+yain surf
+surf
+v .config/qtile/config.py
+yain vimb
+v .local/share/qtile/qtile.log
+yain gst-libav
+vimb
+yaupd
+yain webkit2gtk
+v Downloads/instruct/config.txt
+v Downloads/instruct/initial.txt
+v .config/qtile/config.py
+v Downloads/instruct/post.txt
+v .config/qtile/config.py
+exit
+v .config/qtile/config.py
+exit
+diff .config/qtile/config.py .config/qtile/config.py.bak
+v .config/qtile/config.py
+v .config/qtile/config.py.bak
+v .local/share/qtile
+v .config/qtile/config.py
+cd 
+cd .config/qtile
+mv config.py config.py.bak
+cp ~/Downloads/instruct/qtile/config.py .
+v config.py
+exit
+v .config/qtile/config.py
+v .config/qtile/config.py
+exit
+rm .config/qtile/config.py.bak
+v .config/qtile/config.py
+lsal
+sudo rm -r .surf
+v .xsession-errors
+rm .xsession-errors .xsession-errors.old
+lsal
+v .dmrc
+rm .dmrc
+lsal
+cd .config
+cd vimb
+lsal
+yain vimb-gtk2
+yain vimb-gtk2
+yain vimb-git
+yain vieb
+yain vieb-bin
+ranger
+webkit2gtk -v
+yain webkit2gtk
+yain webkit2gtk-5.0
+yar webkit2gtk
+sudo pacman -Qs webkit2gtk
+sudo pacman -R webkit2gtk
+yain webkit2gtk-4.1
+yain webkitgtk
+v Downloads/instruct/config.txt
+v Downloads/instruct/post.txt
+v Downloads/instruct/initial.txt
+htop
+htop
+v Downloads/instruct/post.txt
+v Downloads/instruct/config.txt
+v Downloads/instruct/post.txt
+v Downloads/instruct/initial.txt
+timedatectl status
+sudo timedatectl set-ntp true
+timedatectl status
+hwclock --systohc
+sudo hwclock --systohc
+sudo hwclock --hctosys
+hwclock --show
+sduo hwclock --show
+sudo hwclock --show
+timedatectl set-local-rtc 1
+timedatectl set-local-rtc 0
+hwclock --show
+sudo hwclock --show
+sudo timedatectl status
+sudo timedatectl set-timezone UTC
+sudo timedatectl status
+v /etc/localtime
+ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
+v Downloads/instruct/initial.txt
+sudo timedatectl status
+sudo hwclock --hctosys
+sudo hwclock --systohc
+sudo timedatectl set-ntp true
+sudo timedatectl status
+sudo timedatectl status
+timedatectl status
+sudo timedatectl set-ntp true
+sudo timedatectl set-ntp true
+sudo timedatectl set-ntp true
+timedatectl status
+timedatectl status
+ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
+timedatectl set-local-rtc 1
+timedatectl set-local-rtc 0
+sudo hwclock --systohc
+timedatectl status
+sudo hwclock --hctosys
+timedatectl
+timedatectl set-timezone Europe/Kiev
+sudo systemctl restart ntp
+sudo hwclock --debug
+sudo sudo hwclock --debug
+sudo sudo hwclock --verbose
+sudo ntpd -qg
+hwclock --systohc --utc
+sudo hwclock --systohc --utc
+timedatectl
+timedatectl set-local-rtc 0
+yain ntpd
+ timedatectl set-ntp true 
+ timedatectl
+sudo timedatectl set-local-rtc 1 --adjust-system-clock
+ timedatectl
+sudo timedatectl set-local-rtc 0 --adjust-system-clock
+ timedatectl
+timedatectl set-time "2022-06-26 18:00:00"
+hwclock --show\
+
+sudo hwclock --show\
+
+hwclock --systohc\
+
+sudo hwclock --systohc\
+
+hwclock --show
+sudo hwclock --show\
+
+sudo hwclock --hctosys
+sudo hwclock -h
+sudo hwclock -u
+timedatectl
+sudo timedatectl set-ntp true
+ntpd
+yain ntpd
+yain ntp
+ntpd
+ sudo ntpd -qg
+sudo timedatectl set-ntp false
+timedatectl set-time "2022-06-26 18:18:30"
+sound
+volume
+volume
+htop
+ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
+hwclock --systohc
+sudo hwclock --systohc
+timedatectl
+v Downloads/instruct/in
+v Downloads/instruct/in
+v Downloads/instruct/initial.txt
+lsblk -l
+sudo mount /dev/nvme0n1p3 /media/windows
+cp -r /media/windows/Users/Oleh/Education/ ~
+lsal
+cp -r /media/windows/Users/Oleh/Documents ~
+lsal
+v Downloads/instruct/post.txt
+v Downloads/instruct/config.txt
+htop
+volume
+exit
+htop
+v .config/qtile/config.py
+yar qutebrowser
+yain qutebrowser
+cd .config
+cd qutebrowser
+lsal
+sudo pacman -S python-adblock
+cd .config
+cp .config/qutebrowser Downloads/instruct
+cp -r .config/qutebrowser Downloads/instruct
+v Downloads/instruct/config.txt
+cd Pictures
+lsal
+v Downloads/instruct/post.txt
+cd /usr/share/icons
+lsal
+cd ..
+lsal
+cd themes
+lsal
+cd Ant-Dracula
+cd ..
+cd ..
+cd icons
+cd Bibata-Modern-Amber
+cd ..
+cd Flatery-Dark
+cd ..
+cd Papirus-Dark
+cd
+cd /etc/X11/xorg.conf.d
+lsal
+cd
+cd /etc/modprobe.d/
+lsal
+cd
+cd /etc/default/
+lsal
+cd
+v Downloads/instruct/initial.txt
+v Downloads/instruct/post.txt
+v Downloads/instruct/update.sh
+v Downloads/instruct/post.txt
+cd /etc/optimus-manager
+lsal
+cd
+cd /etc/pacman.d/
+lsal
+cd etc
+cd /etc
+lsal
+v pacman.conf
+v tlp.conf
+cd
+v Downloads/instruct/config.txt
+v Do
+v Downloads/instruct/post.txt
+v Downloads/instruct/mirrorlist
+find reflector.timer
+find / reflector.timer
+find / -name "reflector.timer"
+sudo find / -name "reflector.timer"
+v /usr/lib/systemd/system/reflector.timer
+v .config/zsh/.zshrc
+v Downloads/instruct/post.txt
+yain reflector
+sudo reflector -c Ukraine -c Poland -a 12 -p https --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector -c Ukraine -a 12 -p https --sort rate --save /etc/pacman.d/mirrorlist
+reflector --help
+v /etc/xdg/reflector/reflector.conf
+sudo reflector -c Ukraine -c Poland -a 12 -p https --sort rate --save /etc/pacman.d/mirrorlist
+v /etc/xdg/reflector/reflector.conf
+sudo v /etc/xdg/reflector/reflector.conf
+sudo cp /etc/xdg/reflector/reflector.conf Downloads/instruct
+cd /etc/xdg/reflector
+v reflector.conf
+mirrors
+v /etc/pacman.d/mirrorlist
+sudo v /etc/pacman.d/mirrorlist
+sudo cp /etc/pacman.d/mirrorlist Temp
+yaupd
+yaupd
+yaupd
+yaupd
+yaupd
+v /etc/pacman.d/mirrorlist
+yaupd
+cd Downloads/instruct
+lsas
+lsal
+sudo cp /etc/pacman.d/mirrorlist .
+lsal
+v update.sh
+lsal
+v update.sh
+sh update.sh
+v update.sh
+sh update.sh
+v update.sh
+sh update.sh
+git add -A
+git status
+git commit -m 'file update'
+git push
+git push
+git push
+git push
+git push
+git push
+net
+Ñƒ¦
+w
+w
+w
+mirrors
+net
+grub-update
+volume
+lsal
+yaupd
+yaupd
+yain gparted
+neofetch
+sudo gparted
+cd Downloads/instruct/
+v update.sh
+cd Downloads/instruct
+lsal
+v config.txt
+cd Downloads/instruct
+v initial.txt
+mv initial.txt initial.sh
+v initial.sh
+cd Downloads/instruct
+v post.txt
+v post.txt
+mv post.txt post.sh
+git add -A
+git status 
+git commit -m 'first try'
+git pushh
+git push
+git push -f
+git pull
+lsal
+v Downloads/instruct
+cd Downloads/instruct
+lsal
+cd Downloads/instruct
+lsal
+v update.sh
+v post.sh
+find *.sh
+lsal
+cd .mozila
+cd .mozilla
+lsal
+cd ..
+cp -r .mozilla Downloads/instruct
+cd Downloads/i
+cd Downloads/instruct
+git add -A
+git status
+git push
+git commit -m 'add firefox'
+git push
+git add -A
+git commit -m 'add firefox'
+git push
+v Downloads/instruct/conf
+v Downloads/instruct/config.txt
+sound
+volume
+sh Downloads/instruct/update.sh
+lsal
+sh Downloads/instruct/update.sh && exit
+sudo pacman -Syu
+v /etc/passwd
+sudo su
+8787
+lsal
+cd Downloads/instruct
+v post.sh
+lsal
+cd Downloads/instruct
+v post.sh
+lsal
+cd Downloads/instruct
+v post.sh
+v Downloads/instruct/initial.sh
+reboot
+sudo pacman -Syu
