@@ -14,7 +14,7 @@ useradd -m archer
 echo "Enter user password twice"
 passwd archer
 usermod -aG wheel,audio,video archer
-echo "Uncomment wheel group"
+read -p "Uncomment wheel group (press Enter to continue)"
 EDITOR=nvim visudo
 cp Downloads/arch-install/grub /etc/default/grub 
 grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
