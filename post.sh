@@ -34,7 +34,6 @@ cp -r Downloads/arch-install/htop ~/.config/
 cp -r Downloads/arch-install/alacritty ~/.config/
 cp -r Downloads/arch-install/picom ~/.config/
 cp -r Downloads/arch-install/copyq ~/.config/
-# copyq config hide_main_window true
 cp -r Downloads/arch-install/flameshot ~/.config/
 cp -r Downloads/arch-install/qtile ~/.config/
 chmod +x ~/.config/qtile/autostart.sh
@@ -60,7 +59,6 @@ chmod +x .local/bin/changebrightness.sh
 sudo cp Downloads/arch-install/index.theme /usr/share/icons/default/
 cp -r Downloads/arch-install/gtk-3.0 ~/.config
 cp Downloads/arch-install/.gtkrc-2.0 ~/
-# try to edit in lxapearnce
 cp -r Downloads/arch-install/pcmanfm ~/.config/
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 cp -r Downloads/arch-install/nvim ~/.config/
@@ -79,7 +77,7 @@ cp -r Downloads/arch-install/qutebrowser ~/.config/
 cp -r Downloads/arch-install/.mozilla ~/
 
 
-#lxapearence telegram discord
+#lxapearence
 #Firefox
 #Telegram
 #Discord

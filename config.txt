@@ -18,6 +18,9 @@ qt theme Colloid aurorae theme
 xset
 vifm or ranger check
 
+betterlockscreen not work at start
+pcmanfm not identical
+
 
 qutebrowser
 zsh slow

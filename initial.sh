@@ -2,7 +2,6 @@
 timedatectl set-ntp true
 ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
 hwclock --systohc
-# hwclock --hctosys
 pacman -S --noconfirm base-devel neovim sudo grub efibootmgr dosfstools os-prober networkmanager
 cp Downloads/arch-install/locale.gen /etc/locale.gen
 locale-gen
