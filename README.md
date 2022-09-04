@@ -1,4 +1,9 @@
 # My Arch install script
+
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
+
 I encountered many problems after which I had to reinstall the system. A simple backup is not enough, because not all system settings are saved. I wrote this script in order to completely reproduce my workplace in a couple of clicks.
 
 ## It consists of two files:
