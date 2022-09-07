@@ -21,7 +21,7 @@ A few steps is needed to be done yourself:
 * genfstab -U /mnt >> /mnt/etc/fstab
 * arch-chroot /mnt
 * pacman -S git 
-* cd && mkdir Downloads && cd Downloads && git clone https://github.com/NemaOchka/arch-install && cd
+* cd && mkdir Downloads && cd Downloads && git clone https://github.com/kafkaGen/arch-install && cd
 * sh Downloads/instruct/initial.sh
 
 Last steps after the script completes:
